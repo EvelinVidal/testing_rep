@@ -1,0 +1,18 @@
+Re-implementar la clase que describiste el viernes pasado.
+Encapsularla y agregar getters y setters.
+
+   private nroDeSerie:string;
+, nroDeSerieInstancia:string
+
+       this.nroDeSerie=nroDeSerieInstancia;
+
+   //setter
+establecerNroSerie(nroSerieUsuario:string):void{
+this.nroDeSerie=nroSerieUsuario;
+}
+
+//getter
+mostrarNroSerie():string{
+    return this.nroDeSerie;
+}
+, "e90-00100hrt"
